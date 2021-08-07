@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Anonymous</string>
+    <string name="online">All Users</string>
+    <string name="total_test">60</string>
+    <string name="time">00:15</string>
+    <string name="text_box_hint">Type a message</string>
+    <string name="todo">TODO</string>
+</resources>

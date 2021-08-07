@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/gray_dark"
+    >
+
+    <RelativeLayout
+        android:id="@+id/left_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/left_side_back"
+        android:paddingTop="5sp"
+        android:paddingLeft="15sp"
+        android:paddingRight="5sp"
+        android:paddingBottom="15sp"
+        android:layout_marginTop="5sp"
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="25sp"
+        android:layout_alignParentStart="true">
+        <TextView
+            android:id="@+id/left_name"
+            android:text="@string/app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/gray_light"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:background="@color/gray_dark"/>
+
+        <TextView
+            android:id="@+id/left_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_box_hint"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:layout_below="@+id/left_name">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/left_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/left_text"
+            android:layout_marginTop="3dp"
+            android:text="@string/time"
+            android:textColor="@color/gray_light"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/right_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/right_side_back"
+        android:paddingTop="15sp"
+        android:paddingLeft="15sp"
+        android:paddingRight="5sp"
+        android:paddingBottom="15sp"
+        android:layout_marginTop="5sp"
+        android:layout_marginLeft="25sp"
+        android:layout_marginRight="5sp"
+        android:layout_alignParentEnd="true">
+        <TextView
+            android:id="@+id/right_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_box_hint"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+           />
+      <TextView
+            android:id="@+id/right_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/right_text"
+            android:layout_marginTop="3dp"
+            android:text="@string/time"
+            android:textColor="@color/gray_dark"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>
